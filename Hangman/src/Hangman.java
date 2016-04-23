@@ -22,9 +22,9 @@ public class Hangman {
 				wordCount++;
 			}
 			filesc.close();
-			//for (int i = 0; i < wordCount; i++){
-			//	System.out.println(words[i]);
-			//}
+			for (int i = 0; i < wordCount; i++){
+				System.out.println(words[i]);
+			}
 		} catch(FileNotFoundException e){
 			System.out.println("File not found.");
 		}
